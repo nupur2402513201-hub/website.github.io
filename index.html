@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6fb;
+        }
+
+        /* Navbar */
+        nav {
+            background: #0d6efd;
+            padding: 15px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h2 {
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(to right, #0d6efd, #6610f2);
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        /* About Section */
+        .about {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        /* Skills Section */
+        .skills {
+            padding: 50px 20px;
+            background: white;
+        }
+
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .skill-box {
+            background: #f1f1f1;
+            padding: 20px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        /* Projects Section */
+        .projects {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .project-box {
+            background: white;
+            padding: 20px;
+            margin: 15px auto;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 50px 20px;
+            background: white;
+            text-align: center;
+        }
+
+        footer {
+            background: #212529;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h2>My Portfolio</h2>
+    <div>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <h1>Hello, I'm a Web Developer</h1>
+    <p>I create responsive websites using HTML, CSS and JavaScript</p>
+</section>
+
+<!-- About Section -->
+<section class="about" id="about">
+    <h2>About Me</h2>
+    <p>I am a student passionate about web development and programming. I love creating responsive and modern websites.</p>
+</section>
+
+<!-- Skills Section -->
+<section class="skills" id="skills">
+    <h2 style="text-align:center;">My Skills</h2>
+
+    <div class="skills-container">
+        <div class="skill-box">HTML</div>
+        <div class="skill-box">CSS</div>
+        <div class="skill-box">JavaScript</div>
+        <div class="skill-box">Bootstrap</div>
+        <div class="skill-box">Python</div>
+        <div class="skill-box">MySQL</div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section class="projects" id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-box">
+        <h3>Student Management System</h3>
+        <p>A simple system developed using Python and MySQL.</p>
+    </div>
+
+    <div class="project-box">
+        <h3>Responsive Landing Page</h3>
+        <p>A mobile-friendly website created using HTML, CSS, and Bootstrap.</p>
+    </div>
+
+    <div class="project-box">
+        <h3>Online Quiz System</h3>
+        <p>An interactive quiz application built using JavaScript.</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: yourname@email.com</p>
+    <p>Phone: 9876543210</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 My Portfolio Website | Created using HTML & CSS</p>
+</footer>
+
+</body>
+</html>
